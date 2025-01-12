@@ -1,0 +1,46 @@
+@font-face {
+  font-family: cymru-headline;
+  src: url(fonts/Cymru\ Sans\ Headline\ Regular.otf);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  font-family: cymru-headline;
+}
+header {
+  background-color: hsl(0, 0%, 80%);
+  text-align: center;
+  padding: 7px;
+}
+main {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.navbar ul {
+  list-style-type: none;
+  background-color: hsl(0, 0%, 25%);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+.navbar a:hover {
+  background-color: hsl(0, 0%, 10%);
+}
+.navbar li {
+  float: left;
+}
+footer {
+  display: block;
+  clear: both;
+  background-color: hsl(0, 0%, 80%);
+  padding: 7px;
+}
