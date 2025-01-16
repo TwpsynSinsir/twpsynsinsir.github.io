@@ -1,16 +1,16 @@
 @font-face {
+  src: url(/devacademy/twpsynsinsir.github.io/fonts/Cymru\ Sans\ Headline\ Regular.otf);
   font-family: cymru-headline;
-  src: url(fonts/Cymru\ Sans\ Headline\ Regular.otf);
 }
 * {
   box-sizing: border-box;
+  font-family: cymru-headline;
 }
 body {
   margin: 0px;
-  font-family: cymru-headline;
 }
 header {
-  background-color: hsl(0, 0%, 80%);
+  background-color: hsl(191, 69%, 62%);
   text-align: center;
   padding: 7px;
 }
@@ -20,7 +20,7 @@ main {
 }
 .navbar ul {
   list-style-type: none;
-  background-color: hsl(0, 0%, 25%);
+  background-color: hsl(216, 71%, 43%);
   padding: 0px;
   margin: 0px;
   overflow: hidden;
@@ -33,10 +33,11 @@ main {
   text-align: center;
 }
 .navbar a:hover {
-  background-color: hsl(0, 0%, 10%);
+  background-color: hsl(216, 71%, 23%);
 }
 .navbar li {
   float: left;
+  min-width: 100px;
 }
 footer {
   display: block;

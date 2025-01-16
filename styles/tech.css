@@ -1,0 +1,30 @@
+#block {
+  background-color: lightblue;
+}
+span {
+  background-color: lightcoral;
+}
+.block {
+  background-color: aqua;
+  height: 50px;
+}
+.inline {
+  background-color: lightgreen;
+  display: inline;
+  height: 50px;
+}
+.inline-block {
+  background-color: tomato;
+  display: inline-block;
+  height: 50px;
+}
+div p {
+  max-width: 50%;
+}
+h2 {
+  border: 2px solid slateblue;
+  border-radius: 20px;
+  padding: 5px;
+  display: inline-block;
+  background-color: hsl(207, 44%, 75%);
+}
