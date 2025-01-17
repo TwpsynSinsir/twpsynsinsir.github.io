@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="/devacademy/twpsynsinsir.github.io/styles/dropdown.css" />
+    <script
+      src="https://kit.fontawesome.com/4a2faf4441.js"
+      crossorigin="anonymous"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Responsive Navbar Attempt</h1>
+    </header>
+    <nav>
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="#"><i class="fa-solid fa-xmark"></i></a>
+        </li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li class="hideOnMobile"><a href="#">About Me</a></li>
+        <li class="hideOnMobile"><a href="#">Blog</a></li>
+        <li class="hideOnMobile"><a href="#">Contact</a></li>
+        <li class="menu-button" onclick="showSidebar()">
+          <a href="#"><i class="fa-solid fa-bars"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <script>
+      function showSidebar() {
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+      }
+      function hideSidebar() {
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+      }
+    </script>
+  </body>
+</html>
