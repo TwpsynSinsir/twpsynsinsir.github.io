@@ -1,3 +1,34 @@
+.sidelog {
+  position: absolute;
+  left: 0;
+  height: 40vh;
+  width: 140px;
+  z-index: 1;
+  background-color: hsl(240, 64%, 71%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+}
+.sidelog ul {
+  list-style: none;
+  margin: 0%;
+}
+.sidelog li {
+  padding-bottom: 10px;
+}
+.sidelog a {
+  text-decoration: none;
+  font-size: 20px;
+  color: hsl(240, 64%, 31%);
+}
+.sidelog a:hover {
+  color: hsl(240, 64%, 21%);
+}
+main {
+  margin-left: 160px;
+  margin-top: 50px;
+}
 #block {
   background-color: lightblue;
 }

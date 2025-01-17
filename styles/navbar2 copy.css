@@ -67,6 +67,16 @@ nav li:last-child {
 .menu-button {
   display: none;
 }
+.drp-cont {
+  display: none;
+  position: absolute;
+}
+.drp-cont a {
+  height: 50px;
+}
+.dropdown:hover .drp-cont {
+  display: block;
+}
 @media (max-width: 800px) {
   .hideOnMobile {
     display: none;
