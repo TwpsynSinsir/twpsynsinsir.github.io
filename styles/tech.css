@@ -1,29 +1,32 @@
 .sidelog {
-  position: absolute;
+  position: fixed;
   left: 0;
-  height: 40vh;
+  height: 100vh;
   width: 140px;
-  z-index: 1;
   background-color: hsl(240, 64%, 71%);
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding-top: 20px;
+  padding-top: 200px;
+  overflow: hidden;
+  text-align: center;
+}
+.sidelog i {
+  color: white;
 }
 .sidelog ul {
   list-style: none;
   margin: 0%;
 }
 .sidelog li {
-  padding-bottom: 10px;
+  padding: 5px 5px 5px 5px;
 }
 .sidelog a {
   text-decoration: none;
   font-size: 20px;
-  color: hsl(240, 64%, 31%);
+  color: white;
 }
 .sidelog a:hover {
-  color: hsl(240, 64%, 21%);
+  font-size: 1.5em;
 }
 main {
   margin-left: 160px;

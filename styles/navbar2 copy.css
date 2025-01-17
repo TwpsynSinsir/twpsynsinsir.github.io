@@ -1,24 +1,29 @@
+@font-face {
+  src: url(/devacademy/twpsynsinsir.github.io/fonts/Cymru\ Sans\ Headline\ Regular.otf);
+  font-family: cymru-headline;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: cymru-headline;
 }
 header {
   text-align: center;
-  padding: 7px 0 7px 0;
-  background-color: grey;
-  color: white;
+  padding: 20px;
+  background-color: hsl(191, 69%, 62%);
+  z-index: 999;
 }
 body {
+  margin: 0;
   min-height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 nav {
-  background-color: white;
+  background-color: hsl(216, 71%, 43%);
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  z-index: 999;
 }
 nav ul {
   width: 100%;
@@ -36,10 +41,10 @@ nav a {
   text-decoration: none;
   display: flex;
   align-items: center;
-  color: black;
+  color: white;
 }
 nav a:hover {
-  background-color: #f0f0f0;
+  background-color: hsl(216, 71%, 23%);
 }
 nav li:last-child {
   margin-left: auto;
@@ -50,8 +55,7 @@ nav li:last-child {
   height: 100vh;
   width: 250px;
   z-index: 999;
-  background-color: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(10px);
+  background-color: hsl(216, 71%, 43%);
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
   display: none;
   flex-direction: column;
@@ -67,15 +71,13 @@ nav li:last-child {
 .menu-button {
   display: none;
 }
-.drp-cont {
-  display: none;
-  position: absolute;
-}
-.drp-cont a {
-  height: 50px;
-}
-.dropdown:hover .drp-cont {
-  display: block;
+footer {
+  bottom: 0px;
+  display: flex;
+  margin-top: auto;
+  clear: both;
+  background-color: hsl(0, 0%, 80%);
+  padding: 7px;
 }
 @media (max-width: 800px) {
   .hideOnMobile {

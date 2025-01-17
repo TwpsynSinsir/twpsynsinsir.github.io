@@ -3,6 +3,7 @@
   font-family: cymru-headline;
 }
 * {
+  margin: 0;
   box-sizing: border-box;
   font-family: cymru-headline;
 }
@@ -12,11 +13,7 @@ body {
 header {
   background-color: hsl(191, 69%, 62%);
   text-align: center;
-  padding: 7px;
-}
-main {
-  margin-left: 20px;
-  margin-right: 20px;
+  padding: 20px;
 }
 .navbar ul {
   list-style-type: none;
@@ -40,6 +37,7 @@ main {
   min-width: 100px;
 }
 footer {
+  bottom: 0px;
   display: block;
   clear: both;
   background-color: hsl(0, 0%, 80%);
