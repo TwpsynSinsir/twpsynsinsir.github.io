@@ -3,38 +3,119 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/twpsynsinsir.github.io/styles/main.css" />
+    <link rel="stylesheet" href="/twpsynsinsir.github.io/styles/tech.css" />
     <link
-      rel="stylesheet"
-      href="/devacademy/twpsynsinsir.github.io/styles/navbar.css"
+      rel="icon"
+      type="image/webp"
+      href="/twpsynsinsir.github.io/images/Yuusha.webp"
     />
+    <script
+      src="https://kit.fontawesome.com/4a2faf4441.js"
+      crossorigin="anonymous"
+    ></script>
     <title>About Me</title>
   </head>
   <body>
     <header>
       <h1>About Me</h1>
     </header>
-    <nav class="navbar">
-      <ul>
-        <li>
-          <a href="/devacademy/twpsynsinsir.github.io/index.html">Home</a>
+    <nav>
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="#"><i class="fa-solid fa-xmark"></i></a>
         </li>
-        <li><a href="page2.html">Technical Blog</a></li>
-        <li><a href="page3.html">Cultural Blog</a></li>
         <li><a href="aboutme.html">About Me</a></li>
-        <li><a href="warcraft.html">Games</a></li>
+        <li><a href="techblog.html">Technical Blog</a></li>
+        <li><a href="cultureblog.html">Cultural Blog</a></li>
+      </ul>
+      <ul>
+        <li><a href="/twpsynsinsir.github.io/index.html">Home</a></li>
+        <li class="hideOnMobile"><a href="aboutme.html">About Me</a></li>
+        <li class="hideOnMobile"><a href="techblog.html">Technical Blog</a></li>
+        <li class="hideOnMobile">
+          <a href="cultureblog.html">Cultural Blog</a>
+        </li>
+        <li class="menu-button" onclick="showSidebar()">
+          <a href="#"><i class="fa-solid fa-bars"></i></a>
+        </li>
       </ul>
     </nav>
-    <main>
-      <h2>Me, Myself, and I</h2>
-      <section>
-        <h3>My Hobbies and Interests</h3>
+    <div class="sidelog">
+      <div class="technical">
         <ul>
-          <li>Video Games</li>
-          <li>Hiking</li>
-          <li>Reading</li>
-          <li>History</li>
+          <li>
+            <a href="page3.html">Topic 1 <i class="fa-solid fa-book"></i></a>
+          </li>
         </ul>
-      </section>
+      </div>
+    </div>
+    <main>
+      <div>
+        <h2>Chosen Topic: Inline vs Inline Block</h2>
+        <p>
+          HTML elements have a default display value. They are either inline or
+          block-level elements.
+        </p>
+        <p>
+          Block-level elements start on a new line, and take up the full width
+          available. Examples include: headings (h1, h2, etc.), div, p.
+        </p>
+        <p>
+          Meanwhile, inline elements do not start a new line, and their width is
+          limited to only what is needed. Examples include: span, a, img.
+        </p>
+      </div>
+      <div>
+        <h2>Inline and Block examples:</h2>
+        <div id="block">block element</div>
+        <span>inline element</span>
+        <p>
+          As you can see above, the block element has taken up the entire space
+          provided and started on a new line, whereas the span element is
+          self-contained and continued on the same line.
+        </p>
+        <p>
+          As mentioned above, inline and block are the default elements assigned
+          to HTML elements. With CSS, it is possible to change the default
+          setting of elements using the "display" function. We can assign
+          usually inline elements like images to be "block", and ususally block
+          elements like paragraphs to be "inline".
+        </p>
+        <p>
+          It is also possible, using CSS, to assign height and width parameters
+          to both block and inline elements. However, these will not affect
+          inline elements, as they are hardcoded to only take up the required
+          area. Therein comes "inline block" elements.
+        </p>
+      </div>
+      <div>
+        <h2>Inline Block examples:</h2>
+        <h4 class="block">Hello, I'm a block element!</h4>
+        <h4 class="inline">Hello, I'm an inline element!</h4>
+        <h4 class="inline-block">Hello, I'm an inline-block element!</h4>
+        <p>
+          Each of the above elements have been given a background colour and a
+          height of 50px.
+        </p>
+        <p>
+          We can see that the block has without a width being set, the block
+          element has taken up the entire space provided. The inline and
+          inline-block elements have only taken up the width necessary for their
+          contents, but the inline element has not been affected by the height
+          setting.
+        </p>
+      </div>
     </main>
+    <script>
+      function showSidebar() {
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+      }
+      function hideSidebar() {
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+      }
+    </script>
   </body>
 </html>

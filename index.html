@@ -3,22 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="icon" type="image/webp" href="images/Yuusha.webp" />
-    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/4a2faf4441.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Home Page</title>
   </head>
   <body>
     <header>
       <h1>Dev Academy Blog</h1>
     </header>
-    <nav class="navbar">
+    <nav>
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="#"><i class="fa-solid fa-xmark"></i></a>
+        </li>
+        <li>
+          <a href="/twpsynsinsir.github.io/pages/aboutme.html">About Me</a>
+        </li>
+        <li>
+          <a href="/twpsynsinsir.github.io/pages/techblog.html"
+            >Technical Blog</a
+          >
+        </li>
+        <li>
+          <a href="/twpsynsinsir.github.io/pages/cultureblog.html"
+            >Cultural Blog</a
+          >
+        </li>
+      </ul>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="pages/page2.html">Technical Blog</a></li>
-        <li><a href="pages/page3.html">Cultural Blog</a></li>
-        <li><a href="pages/aboutme.html">About Me</a></li>
-        <li><a href="warcraft.html">Games</a></li>
+        <li class="hideOnMobile">
+          <a href="/twpsynsinsir.github.io/pages/aboutme.html">About Me</a>
+        </li>
+        <li class="hideOnMobile">
+          <a href="/twpsynsinsir.github.io/pages/techblog.html"
+            >Technical Blog</a
+          >
+        </li>
+        <li class="hideOnMobile">
+          <a href="/twpsynsinsir.github.io/pages/cultureblog.html"
+            >Cultural Blog</a
+          >
+        </li>
+        <li class="menu-button" onclick="showSidebar()">
+          <a href="#"><i class="fa-solid fa-bars"></i></a>
+        </li>
       </ul>
     </nav>
     <main>
@@ -77,10 +111,17 @@
     </main>
     <footer>
       author: Calum Wicks <br />
-      &copy; copyright reserved <br />
-      <small
-        ><a href="mailto:calumwicks1@gmail.com">calumwicks1@gmail.com</a></small
-      >
+      &copy; copyright reserved
     </footer>
+    <script>
+      function showSidebar() {
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+      }
+      function hideSidebar() {
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+      }
+    </script>
   </body>
 </html>
