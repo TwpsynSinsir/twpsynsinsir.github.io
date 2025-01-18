@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="/devacademy/twpsynsinsir.github.io/styles/main.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/devacademy/twpsynsinsir.github.io/styles/aboutme_test.css"
+    />
+    <link
+      rel="icon"
+      type="image/webp"
+      href="/devacademy/twpsynsinsir.github.io/images/Yuusha.webp"
+    />
+    <script
+      src="https://kit.fontawesome.com/4a2faf4441.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>About Me</title>
+  </head>
+  <body>
+    <header>
+      <h1>About Me</h1>
+    </header>
+    <nav>
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="#"><i class="fa-solid fa-xmark"></i></a>
+        </li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="techblog.html">Technical Blog</a></li>
+        <li><a href="cultureblog.html">Cultural Blog</a></li>
+      </ul>
+      <ul>
+        <li>
+          <a href="/devacademy/twpsynsinsir.github.io/index.html">Home</a>
+        </li>
+        <li class="hideOnMobile"><a href="aboutme.html">About Me</a></li>
+        <li class="hideOnMobile"><a href="techblog.html">Technical Blog</a></li>
+        <li class="hideOnMobile">
+          <a href="cultureblog.html">Cultural Blog</a>
+        </li>
+        <li class="menu-button" onclick="showSidebar()">
+          <a href="#"><i class="fa-solid fa-bars"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div class="page-wrapper">
+        <div class="row">
+          <div class="column">
+            <div class="orange-column">Some Text in Column One</div>
+          </div>
+          <div class="column">
+            <div class="blue-column">Some Text in Column Two</div>
+          </div>
+          <div class="column">
+            <div class="green-column">Some Text in Column Three</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <div class="green-column">Some Text in Row 2, Column One</div>
+          </div>
+          <div class="column">
+            <div class="orange-column">Some Text in Row 2, Column Two</div>
+          </div>
+          <div class="column">
+            <div class="blue-column">Some Text in Row2, Column Three</div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <div class="green-column">Some Text in Row 2, Column One</div>
+            </div>
+            <div class="column">
+              <div class="orange-column">Some Text in Row 2, Column Two</div>
+            </div>
+            <div class="column">
+              <div class="blue-column">Some Text in Row2, Column Three</div>
+            </div>
+        </div>
+      </div>
+    </main>
+    <script>
+      function showSidebar() {
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+      }
+      function hideSidebar() {
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+      }
+    </script>
+  </body>
+</html>

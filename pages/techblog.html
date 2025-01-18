@@ -49,70 +49,64 @@
         </li>
       </ul>
     </nav>
-    <div class="sidelog">
-      <div class="technical">
-        <ul>
-          <li>
-            <a href="techblog.html">Topic 1 <i class="fa-solid fa-gear"></i></a>
-          </li>
-        </ul>
-      </div>
-    </div>
     <main>
-      <div>
-        <h2>Chosen Topic: Inline vs Inline Block</h2>
-        <p>
-          HTML elements have a default display value. They are either inline or
-          block-level elements.
-        </p>
-        <p>
-          Block-level elements start on a new line, and take up the full width
-          available. Examples include: headings (h1, h2, etc.), div, p.
-        </p>
-        <p>
-          Meanwhile, inline elements do not start a new line, and their width is
-          limited to only what is needed. Examples include: span, a, img.
-        </p>
-      </div>
-      <div>
-        <h2>Inline and Block examples:</h2>
-        <div id="block">block element</div>
-        <span>inline element</span>
-        <p>
-          As you can see above, the block element has taken up the entire space
-          provided and started on a new line, whereas the span element is
-          self-contained and continued on the same line.
-        </p>
-        <p>
-          As mentioned above, inline and block are the default elements assigned
-          to HTML elements. With CSS, it is possible to change the default
-          setting of elements using the "display" function. We can assign
-          usually inline elements like images to be "block", and ususally block
-          elements like paragraphs to be "inline".
-        </p>
-        <p>
-          It is also possible, using CSS, to assign height and width parameters
-          to both block and inline elements. However, these will not affect
-          inline elements, as they are hardcoded to only take up the required
-          area. Therein comes "inline block" elements.
-        </p>
-      </div>
-      <div>
-        <h2>Inline Block examples:</h2>
-        <h4 class="block">Hello, I'm a block element!</h4>
-        <h4 class="inline">Hello, I'm an inline element!</h4>
-        <h4 class="inline-block">Hello, I'm an inline-block element!</h4>
-        <p>
-          Each of the above elements have been given a background colour and a
-          height of 50px.
-        </p>
-        <p>
-          We can see that the block has without a width being set, the block
-          element has taken up the entire space provided. The inline and
-          inline-block elements have only taken up the width necessary for their
-          contents, but the inline element has not been affected by the height
-          setting.
-        </p>
+      <h2 class="title">Inline vs Inline Block</h2>
+      <div class="flex-container">
+        <div class="topic">
+          <h3>HTML Elements</h3>
+          <p>
+            HTML elements have a default display value. They are either inline
+            or block-level elements.
+          </p>
+          <p>
+            Block-level elements start on a new line, and take up the full width
+            available. Examples include: headings (h1, h2, etc.), div, p.
+          </p>
+          <p>
+            Meanwhile, inline elements do not start a new line, and their width
+            is limited to only what is needed. Examples include: span, a, img.
+          </p>
+        </div>
+        <div class="topic">
+          <h3>Inline and Block examples:</h3>
+          <div id="block">block element</div>
+          <span>inline element</span>
+          <p>
+            As you can see above, the block element has taken up the entire
+            space provided and started on a new line, whereas the span element
+            is self-contained and continued on the same line.
+          </p>
+          <p>
+            As mentioned above, inline and block are the default elements
+            assigned to HTML elements. With CSS, it is possible to change the
+            default setting of elements using the "display" function. We can
+            assign usually inline elements like images to be "block", and
+            ususally block elements like paragraphs to be "inline".
+          </p>
+          <p>
+            It is also possible, using CSS, to assign height and width
+            parameters to both block and inline elements. However, these will
+            not affect inline elements, as they are hardcoded to only take up
+            the required area. Therein comes "inline block" elements.
+          </p>
+        </div>
+        <div class="topic">
+          <h3>Inline Block examples:</h3>
+          <h4 class="block">Hello, I'm a block element!</h4>
+          <h4 class="inline">Hello, I'm an inline element!</h4>
+          <h4 class="inline-block">Hello, I'm an inline-block element!</h4>
+          <p>
+            Each of the above elements have been given a background colour and a
+            height of 50px.
+          </p>
+          <p>
+            We can see that the block has without a width being set, the block
+            element has taken up the entire space provided. The inline and
+            inline-block elements have only taken up the width necessary for
+            their contents, but the inline element has not been affected by the
+            height setting.
+          </p>
+        </div>
       </div>
     </main>
     <script>
