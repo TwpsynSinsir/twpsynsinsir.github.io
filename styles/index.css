@@ -1,30 +1,45 @@
 main {
   padding: 20px;
 }
+.container {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    'aside section article'
+    'aside section article'
+    'aside section article';
+}
 aside {
-  width: 20%;
-  float: left;
-  padding: 10px;
+  grid-area: aside;
+  background-color: lightskyblue;
 }
 section {
-  width: 40%;
-  float: left;
-  padding: 10px;
+  grid-area: section;
 }
 article {
-  width: 40%;
-  float: left;
-  padding: 10px;
+  grid-area: article;
 }
-.extra {
-  clear: both;
-  background-color: hsl(0, 0%, 70%);
-  display: inline-block;
+.topic {
+  padding: 1em;
+  line-height: 25px;
+}
+.topic img {
+  max-width: 100%;
+  padding: 0.5em;
+}
+.topic p {
+  margin: 1em;
+}
+.topic ul {
+  text-indent: 2em;
+  list-style: none;
+  line-height: 2em;
 }
 @media screen and (max-width: 800px) {
-  aside,
-  section,
-  article {
-    width: 100%;
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
