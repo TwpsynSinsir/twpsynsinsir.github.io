@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(4 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    'aside navbar navbar navbar'
+    'aside main main main'
+    'aside main main main'
+    'aside main main main'
+    'aside main main main'
+    'aside footer footer footer';
+}
+nav {
+  grid-area: navbar;
+  background-color: aqua;
+}
+aside {
+  grid-area: aside;
+  background-color: black;
+  color: white;
+}
+main {
+  grid-area: main;
+  background-color: blue;
+  color: white;
+}
+footer {
+  grid-area: footer;
+  background-color: gray;
+  color: white;
+}
