@@ -13,13 +13,15 @@ main {
 }
 aside {
   grid-area: aside;
-  background-color: lightskyblue;
+  background-color: hsla(203, 92%, 75%, 0.473);
 }
 section {
   grid-area: section;
+  background-color: hsla(286, 90%, 73%, 0.514);
 }
 article {
   grid-area: article;
+  background-color: hsla(340, 57%, 64%, 0.514);
 }
 .topic {
   padding: 1em;
@@ -32,6 +34,9 @@ article {
 .topic p {
   margin: 1em;
 }
+.topic h4 {
+  margin: 1em;
+}
 .topic ul {
   text-indent: 2em;
   list-style: none;
@@ -41,5 +46,10 @@ article {
   .container {
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      'aside'
+      'section'
+      'article';
   }
 }
