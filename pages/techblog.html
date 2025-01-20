@@ -21,18 +21,26 @@
         <li onclick="hideSidebar()">
           <a href="#"><i class="fa-solid fa-xmark"></i></a>
         </li>
-        <li><a href="aboutme.html">About Me</a></li>
         <li><a href="techblog.html">Technical Blog</a></li>
-        <li><a href="cultureblog.html">Cultural Blog</a></li>
+        <li class="dropdown">
+          <a href="#">Cultural Blog</a>
+          <ul class="dropdown-content">
+            <li><a href="learning-plan.html">Learning Plan</a></li>
+            <li><a href="identity-values.html">Identity & Values</a></li>
+          </ul>
+        </li>
       </ul>
       <ul>
         <li>
-          <a href="/index_copy.html">Home</a>
+          <a href="/index.html">Home</a>
         </li>
-        <li class="hideOnMobile"><a href="aboutme.html">About Me</a></li>
         <li class="hideOnMobile"><a href="techblog.html">Technical Blog</a></li>
-        <li class="hideOnMobile">
-          <a href="cultureblog.html">Cultural Blog</a>
+        <li class="hideOnMobile dropdown">
+          <a href="#">Cultural Blog</a>
+          <ul class="dropdown-content">
+            <li><a href="learning-plan.html">Learning Plan</a></li>
+            <li><a href="identity-values.html">Identity & Values</a></li>
+          </ul>
         </li>
         <li class="menu-button" onclick="showSidebar()">
           <a href="#"><i class="fa-solid fa-bars"></i></a>
