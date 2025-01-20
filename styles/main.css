@@ -49,6 +49,17 @@ nav a:hover {
 nav li:last-child {
   margin-left: auto;
 }
+nav li ul li {
+  background-color: hsl(216, 71%, 43%);
+}
+nav li .dropdown-content {
+  display: none;
+}
+nav li:hover {
+  .dropdown-content {
+    display: block;
+  }
+}
 .sidebar {
   position: fixed;
   right: 0;
