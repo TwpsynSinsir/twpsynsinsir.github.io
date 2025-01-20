@@ -26,6 +26,8 @@ article {
 .topic {
   padding: 1em;
   line-height: 25px;
+  background-color: hsla(27, 92%, 75%, 0.466);
+  margin: 1em;
 }
 .topic img {
   max-width: 100%;
