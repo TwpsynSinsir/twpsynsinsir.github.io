@@ -21,10 +21,23 @@ I learned that I should make greater use of pseudocode to get my thoughts onto t
 
 2. elegantly solved a problem.
 
-what was the problem?
+### what was the problem?
+
+The problem was the 'whereAreYou' problem from the 5th Kata challenge 'builtin-methods'. This problem asked me to find Scooby within an array of objects.
+
 what problem-solving techniques did you use?
+
+I followed the advice of the comments within the problem and looked at the test.js file, where I could see that within the array were objects of room numbers, within which were hiding objects, within one of which was Scooby.
+
+I next looked up the .find()method and used it to find 'Scooby' within the hiding object, solving the problem.
+
 how did you feel throughout the process?
+
+I felt confident throughout this process. Looking at previous examples and extrapolating them onto my curret problem gave me a lot of confidence in my problem solving skills. This was a great boost after struggling on a few of the previous challenges!
+
 what did you learn?
+
+I learned that if I stay calm and analyse all of the resources at my disposal, I can solve initially difficult seeming problems.
 
 3. Reflect on how confident you feel using each of these problem-solving techniques/processes:
 
