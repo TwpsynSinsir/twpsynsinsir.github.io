@@ -32,3 +32,4 @@ Keep in touch with my friends from other parts of the world through messaging, c
 
 ### Whenua (Land)
 
+When walking to and from New Market, where I study, and to and from the city centre, I always walk through the Domain and Albert Park. Passing through always brings some comfort to me.
