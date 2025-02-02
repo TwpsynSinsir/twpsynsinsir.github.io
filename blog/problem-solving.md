@@ -42,13 +42,43 @@ I learned that if I stay calm and analyse all of the resources at my disposal, I
 3. Reflect on how confident you feel using each of these problem-solving techniques/processes:
 
 Pseudocode
+
+3/10 - I didn't make good use of Pseudocode at the beginning, but after seeing how useful it was, and how my peers had been making good use of it, I want to make far greater use of Pseudocode.
+
 Trying something
+
+7/10 - I feel quite confident at trying something. I feel that if I don't try anything, I will just remain stuck where I am.
+
 Rubber ducky method
+
+8/10 - I found this method really helpful! While I made a cup of tea, talking in turn to each instrument I was using helped me logically explain it. It was also quite fun having a conversation with my kettle about writing in JS.
+
 Reading error messages
+
+7/10 - I feel that I got a lot better at reading and understanding what the error messages were trying to tell me over this week's kata challenges. It helped me stumble into how important using 'var' or 'let' is for defining variables!
+
 Console.logging
+
+10/10 - I feel very confident in using console.logging, and it has helped me a lot through these kata challenges.
+
 Googling
+
+10/10 - I have relied on google a lot to look up different methods and problems that I was facing. Ive spend far too long trawling MDN, Stackoverflow amongst others to not get a good grasp of how to hone in on the answers and how to ask the right questions.
+
 Asking your peers for help
+
+8/10 - I've got a lot better at doing this over the last week. I had been self-conscious before, but everyone has been so supportive, and to know that they also struggled at times was somewhat conforting to me.
+
 Asking coaches for help
+
+8/10 - Similarly to asking me peers for help, I've realised that when I'm in a tight spot, it's always okay to reach out to my facilitator!
+
 Improving your process with reflection
 
+6/10 - I think I still need to get better at improving my processes with reflection. I can be somewhat stubborn at times and fail to pick up on important lessons that would help me greatly.
+
 4. Reflect on a time you were reluctant to ask for help. Consider what made you reluctant to do so. What might you try differently next time?
+
+I was initially reluctant to ask for help when tackling the gradebook challenge. I think I was reluctant to do so for 2 main reasons: Firstly, I felt confident in arrays and objects, so I thought that I should be able to tackle these problems without help. Secondly, I saw other students already tackling and asking questions about the next challenges, so I felt self-conscious when I believed others must have tackled this challenge with ease.
+
+In the future, I won't allow myself to feel self-conscious about asking for help. I've overcome this in the past, but it feels that I have to do so again and again each time I begin at a new institution.
