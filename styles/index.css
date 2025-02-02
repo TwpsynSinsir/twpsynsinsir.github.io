@@ -23,6 +23,10 @@ article {
   grid-area: article;
   background-color: hsla(340, 57%, 64%, 0.514);
 }
+.page-title {
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+}
 .topic {
   padding: 1em;
   line-height: 25px;
