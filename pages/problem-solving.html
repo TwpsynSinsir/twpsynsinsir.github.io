@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/blog.css" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="icon" type="image/webp" href="/images/Yuusha.webp" />
+    <script
+      src="https://kit.fontawesome.com/4a2faf4441.js"
+      crossorigin="anonymous"></script>
+    <title>Technical Blog</title>
+  </head>
+  <body>
+    <header>
+      <h1>Technical Blog</h1>
+    </header>
+    <nav>
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="#"><i class="fa-solid fa-xmark"></i></a>
+        </li>
+        <li class="dropdown">
+          <a href="#">Technical Blog</a>
+          <ul class="dropdown-content">
+            <li><a href="techblog.html">HTML Elements</a></li>
+            <li><a href="javascript-dom.html">The DOM</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Cultural Blog</a>
+          <ul class="dropdown-content">
+            <li><a href="learning-plan.html">Learning Plan</a></li>
+            <li><a href="identity-values.html">Identity & Values</a></li>
+            <li>
+              <a href="emotional-intelligence.html">Emotional Intelligence</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="/index.html">Home</a>
+        </li>
+        <li class="hideOnMobile dropdown">
+          <a href="#">Technical Blog</a>
+          <ul class="dropdown-content">
+            <li><a href="techblog.html">HTML Elements</a></li>
+            <li><a href="javascript-dom.html">The DOM</a></li>
+          </ul>
+        </li>
+        <li class="hideOnMobile dropdown">
+          <a href="#">Cultural Blog</a>
+          <ul class="dropdown-content">
+            <li><a href="learning-plan.html">Learning Plan</a></li>
+            <li><a href="identity-values.html">Identity & Values</a></li>
+            <li>
+              <a href="emotional-intelligence.html">Emotional Intelligence</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-button" onclick="showSidebar()">
+          <a href="#"><i class="fa-solid fa-bars"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <h2 class="title">Problem Solving</h2>
+      <div class="container">
+        <aside>
+          <div class="topic">
+            <h2>When was I blocked on a simple problem?</h2>
+            <h4>What was the problem?</h4>
+            <p>
+              I was blocked by the 2nd problem of the 4th kata challenge:
+              Gradebook. In this challenge, we were provided with 2 arrays named
+              'students' (containing student names), and 'scores' (containing
+              scores pertaining to each student).
+            </p>
+            <p>
+              The 2nd and 3rd questions asked us to add each students' name as
+              properties within the new object 'gradebook', and then add their
+              scores under a new property names 'testScores', each of which were
+              under the students' names.
+            </p>
+            <p>
+              My problem was in finding how to add the info into the new object
+              in their new properties while also extracting the information out
+              of the original arrays.
+            </p>
+            <h4>What problem-solving techniques did I use?</h4>
+            <p>
+              Firstly, I tried to think through the steps I would need to take,
+              and tried to visualise it. Next, I scoured the internet looking
+              for different ways to transfer information from an array into an
+              object. Lastly, when I was getting quite frustrated at my lack of
+              progress, I reachout out to Joshua, our facilitator for help.
+              Other students had found solutions to my problm, so between our
+              facilitator and the other students, I was shown the solution.
+            </p>
+            <h4>How did I feel throughout the process?</h4>
+            <p>
+              I felt frustrated at first. I thought that I had a good grasp of
+              how to manuipulate arrays and objects, but this challenge showed
+              me that I still have a lot to learn. In hindsight, I had skipped
+              through other resources that would have helped me in this
+              particular problem.
+            </p>
+            <p>
+              Upon finding the solution to the problem, I felt humbled,
+              realising that I had been approaching the problem the wrong way. I
+              also felt thankful that I had supportive mentors and peers around
+              me to ask for help.
+            </p>
+            <h4>What did I learn?</h4>
+            <p>
+              I learned that I should make greater use of pseudocode to get my
+              thoughts onto the screen. I also learned that I need to make
+              better use of variables to define more confusing aspects when
+              creating functions. Instead of dealing with multiple brackets to
+              confuse my brain, I can condense the more abstract aspects into
+              easier to read variables. Lastly, I learned not to be
+              self-conscious about asking for help from my peers, which I've
+              always had some problem with.
+            </p>
+            <img
+              src="/images/anatomy.jpg"
+              alt="HTML, CSS, and JS shown as layers of the body." />
+            <h3>HTML, CSS, and JS: The layers of the body</h3>
+          </div>
+          <div class="topic">
+            <h2>When I elegantly solved a problem</h2>
+            <h4>What was the problem?</h4>
+            <p>
+              The problem was the 'whereAreYou' problem from the 5th Kata
+              challenge 'builtin-methods'. This problem asked me to find Scooby
+              within an array of objects.
+            </p>
+            <h4>What problem-solving techniques did I use?</h4>
+            <p>
+              I followed the advice of the comments within the problem and
+              looked at the test.js file, where I could see that within the
+              array were objects of room numbers, within which were hiding
+              objects, within one of which was Scooby.
+            </p>
+            <p>
+              I next looked up the .find()method and used it to find 'Scooby'
+              within the hiding object, solving the problem.
+            </p>
+            <h4>How did I feel throughout the process?</h4>
+            <p>
+              I felt confident throughout this process. Looking at previous
+              examples and extrapolating them onto my curret problem gave me a
+              lot of confidence in my problem solving skills. This was a great
+              boost after struggling on a few of the previous challenges!
+            </p>
+            <h4>What did I learn?</h4>
+            <p>
+              I learned that if I stay calm and analyse all of the resources at
+              my disposal, I can solve initially difficult seeming problems.
+            </p>
+            <img
+              src="/images/function.png"
+              alt="A function showing if, else, and loop statements" />
+            <h3>A function showing if, else, and loop statements</h3>
+          </div>
+          <div class="topic">
+            <h2>
+              Reflecting on a time I was reluctant to ask for help, what made me
+              so reluctant to do so, and what I may try differently next time.
+            </h2>
+            <h4>Struggling with my self-confidence</h4>
+            <p>
+              I was initially reluctant to ask for help when tackling the
+              gradebook challenge. I think I was reluctant to do so for 2 main
+              reasons: Firstly, I felt confident in arrays and objects, so I
+              thought that I should be able to tackle these problems without
+              help. Secondly, I saw other students already tackling and asking
+              questions about the next challenges, so I felt self-conscious when
+              I believed others must have tackled this challenge with ease.
+            </p>
+            <p>
+              In the future, I won't allow myself to feel self-conscious about
+              asking for help. I've overcome this in the past, but it feels that
+              I have to do so again and again each time I begin at a new
+              institution.
+            </p>
+          </div>
+        </aside>
+        <article>
+          <div class="topic">
+            <h2>
+              Reflecting on how confident I feel using each of these
+              problem-solving techniques/processes:
+            </h2>
+            <h4>Pseudocode:</h4>
+            <p>
+              3/10 - I didn't make good use of Pseudocode at the beginning, but
+              after seeing how useful it was, and how my peers had been making
+              good use of it, I want to make far greater use of Pseudocode.
+            </p>
+            <h4>Trying something:</h4>
+            <p>
+              7/10 - I feel quite confident at trying something. I feel that if
+              I don't try anything, I will just remain stuck where I am.
+            </p>
+            <h4>Rubber ducky method:</h4>
+            <p>
+              8/10 - I found this method really helpful! While I made a cup of
+              tea, talking in turn to each instrument I was using helped me
+              logically explain it. It was also quite fun having a conversation
+              with my kettle about writing in JS.
+            </p>
+            <h4>Reading error messages:</h4>
+            <p>
+              7/10 - I feel that I got a lot better at reading and understanding
+              what the error messages were trying to tell me over this week's
+              kata challenges. It helped me stumble into how important using
+              'var' or 'let' is for defining variables!
+            </p>
+            <h4>Console.logging:</h4>
+            <p>
+              10/10 - I feel very confident in using console.logging, and it has
+              helped me a lot through these kata challenges.
+            </p>
+            <h4>Googling:</h4>
+            <p>
+              10/10 - I have relied on google a lot to look up different methods
+              and problems that I was facing. Ive spend far too long trawling
+              MDN, Stackoverflow amongst others to not get a good grasp of how
+              to hone in on the answers and how to ask the right questions.
+            </p>
+            <h4>Asking my peers for help:</h4>
+            <p>
+              8/10 - I've got a lot better at doing this over the last week. I
+              had been self-conscious before, but everyone has been so
+              supportive, and to know that they also struggled at times was
+              somewhat conforting to me.
+            </p>
+            <h4>Asking coaches for help:</h4>
+            <p>
+              8/10 - Similarly to asking me peers for help, I've realised that
+              when I'm in a tight spot, it's always okay to reach out to my
+              facilitator!
+            </p>
+            <h4>Improving my process with reflection:</h4>
+            <p>
+              6/10 - I think I still need to get better at improving my
+              processes with reflection. I can be somewhat stubborn at times and
+              fail to pick up on important lessons that would help me greatly.
+            </p>
+          </div>
+          <div class="topic">
+            <h2>Arrays and Objects</h2>
+            <h4>Storage Wars</h4>
+            <p>
+              Arrays and Objects are both used to store collections of data in
+              javascript. The difference lies in how they each store this data.
+            </p>
+            <p>
+              Arrays store data in consecutive memory locations, which is a
+              fancy way of saying each item is numbered, starting at 0. Arrays
+              are useful when the items we wish to store have only one value, or
+              that the order in which they are numbered also matters.
+            </p>
+            <img src="/images/arrays.png" alt="An example of an array" />
+            <p>
+              Objects store data in key-value pairs, so each key may hold more
+              than one node of data. Objects are very useful when we need to
+              assign more than one value to each item. During the creation of
+              our Javascript cafe, each item on the menu is an object, with that
+              item's stock and cost linked to each object.
+            </p>
+            <img src="/images/products.png" alt="An example of an object" />
+          </div>
+          <div class="topic">
+            <h2>What are Functions?</h2>
+            <h4>What's their function?</h4>
+            <p>
+              A function is a code snippet that can be called by other code or
+              itself. Arguments (values) are passed through the function as
+              inputs, from which the function returns outputs. Below, we can see
+              that we have 2 functions, within each are conditionals, variables,
+              and loops.
+            </p>
+            <p>
+              When the function is called, the inputs are inputted, and the
+              function runs everything through to give us the correct output.
+            </p>
+            <img src="/images/functions.png" alt="Reading on a rainy day" />
+          </div>
+        </article>
+      </div>
+    </main>
+    <footer>
+      author: Calum Wicks <br />
+      &copy; copyright reserved
+    </footer>
+    <script>
+      function showSidebar() {
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+      }
+      function hideSidebar() {
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+      }
+    </script>
+  </body>
+</html>
