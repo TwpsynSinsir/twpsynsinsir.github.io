@@ -18,3 +18,17 @@ Reach out to those around me when my ADHD/Anxiety starts to negatively affect my
 
 ### Taha Wairua (Spiritual Wellbeing)
 
+Try to centre myself through thinking about my part to play in my own and other people's lives.
+
+Talk with my family back in Wales to reconnect with my home through their day-to-day lives.
+
+### Taha Whanau (Family Wellbeing)
+
+Do my best to stay in touch with my family here in NZ, organise to meet up for food/day trips when we're all free.
+
+Meet with my close friends here in Auckland, keeping in touch and staying a part of each other's lives.
+
+Keep in touch with my friends from other parts of the world through messaging, calling, and playing online games together.
+
+### Whenua (Land)
+
